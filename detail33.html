@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>영화 소개 상세 페이지</title>
+    <meta charset="UTF-8">
+    <script type = "text/javascript">
+        function movie(){
+            var animal = document.getElementsByName("a");
+            var sea = document.getElementsByName("b");
+            var classic = document.getElementsByName("c");
+            var dog = document.getElementsByName("d");
+            var millenium = document.getElementsByName("e");
+            var toy = document.getElementsByName("f");
+            var threed = document.getElementsByName("g");
+            var arabia = document.getElementsByName("h");
+            var monster = document.getElementsByName("i");
+            var winter = document.getElementsByName("j");
+            var brain = document.getElementsByName("k");
+            var death = document.getElementsByName("l");
+            var internet = document.getElementsByName("m");
+            var hair = document.getElementsByName("n");  
+
+            if(animal[0].checked==true){
+                if(sea[0].checked==true){
+                    document.getElementById("out").innerHTML = "<img src='http://yoons-magazine.com/wp-content/uploads/2016/05/-e1463538473187.jpg'>";  
+                }
+                else if(classic[0].checked==true){
+                    document.getElementById("out").innerHTML = "<img src='http://image.chosun.com/sitedata/image/201407/09/2014070900748_0.jpg'>";  
+                }  
+                else if(dog[0].checked==true){
+                    document.getElementById("out").innerHTML = "<img src='https://post-phinf.pstatic.net/MjAxNzA0MDZfMjE4/MDAxNDkxNDU4OTE1ODQy.PXVpFJMzDrlMhQ0Pe225VS999RzHSgV9uKzEzM6__aEg.A1zksdZHZr-uzb8vICaW03gYH11NfsybKoY3x1G2oSIg.JPEG/01.jpg?type=w1200'>";  
+                }   
+                else {
+                    document.getElementById("out").innerHTML = "<img src='http://image.kmib.co.kr/online_image/2016/0929/201609290909_61180010962027_1.jpg'>";  
+                }
+            }
+            else if(millenium[0].checked==true){
+                if(toy[0].checked==true){
+                    if(threed[0].checked==true){
+                        document.getElementById("out").innerHTML = "<img src='http://4.bp.blogspot.com/_M9h3q7gPPY4/TVBBU9FjGsI/AAAAAAAAAC0/ReTvGhcpSEw/s1600/toystory.jpg'>";  
+                    }
+                    else{
+                        document.getElementById("out").innerHTML = "<img src='http://widit.knu.ac.kr/~leehojungho/disney/%ED%94%BC%EB%85%B8%ED%82%A4%EC%98%A4%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg'>"; 
+                    } 
+                }
+                else {
+                    if(arabia[0].checked==true){
+                        document.getElementById("out").innerHTML = "<img src='http://img.cgv.co.kr/Movie/Thumbnail/Poster/000057/57942/57942_1000.jpg'>";  
+                    }
+                    else{
+                        document.getElementById("out").innerHTML = "<img src='https://t1.daumcdn.net/cfile/11108B1049B0ECAA90'>"; 
+                    }
+                }
+            } 
+            else {
+                if(monster[0].checked==true){
+                    document.getElementById("out").innerHTML = "<img src='https://image.aladin.co.kr/product/2400/83/cover500/936234078x_1.jpg'>";  
+                }
+                else if(winter[0].checked==true){
+                    document.getElementById("out").innerHTML = "<img src='https://upload.wikimedia.org/wikipedia/ko/thumb/3/38/%EA%B2%A8%EC%9A%B8%EC%99%95%EA%B5%AD.jpg/250px-%EA%B2%A8%EC%9A%B8%EC%99%95%EA%B5%AD.jpg'>";  
+                }  
+                else if(brain[0].checked==true){
+                    document.getElementById("out").innerHTML = "<img src='https://femiwiki-uploaded-files-thumb.s3.amazonaws.com/7/78/IMG_3833.JPG/300px-IMG_3833.JPG'>";  
+                }
+                else if(death[0].checked==true){
+                    document.getElementById("out").innerHTML = "<img src='https://www.nemopan.com/files/attach/images/1116443/762/002/012/fbbf1f5dbb054c0812d4c7116be197bb.jpeg'>";  
+                }
+                else if(internet[0].checked==true){
+                    document.getElementById("out").innerHTML = "<img src='https://cdn.clien.net/web/api/file/F01/7067570/4fbdf3628622c.jpg'>";  
+                }
+                else if(hair[0].checked==true){
+                    document.getElementById("out").innerHTML = "<img src='http://farm6.staticflickr.com/5742/21480659930_925feba286_o.jpg'>";  
+                }
+                else {
+                    document.getElementById("out").innerHTML = "<img src='https://t1.daumcdn.net/cfile/tistory/99F56F3D5A4808991D'>";
+                }
+                
+            }
+         }
+</script>
+
+
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Chewy|Indie+Flower|Montserrat|Poor+Story|Roboto+Condensed&display=swap');       
+        html, body {background-color: rgba( 255, 255, 255, 0.4 );  height:150%; margin:10px; padding:20px}
+        header { text-align:center; background-color:white; text-align:left; padding:5px; border-radius:70px;}
+        header h1 {text-align:center; font-size:30pt; font-family: 'Poor Story', cursive;}
+        nav{ background-color:pink; padding:30px; height:60px; text-align:center; border-radius:70px;}
+        nav a{text-decoration:none;  color: white; font-family: 'Chewy', cursive; width:25%; float:left; font-size:30pt}
+        html {background:url(http://getwallpapers.com/wallpaper/full/9/4/3/382800.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+        article {padding:20px; margin:20px; font-size:20pt}
+        section {float:left; padding:80px}
+        aside {text-align:center}
+        div img {width:400px; height:550px;}
+        
+    </style>
+</head>
+</html>
+<body>
+    <header><p id="title"><a href="index.html"><img style="border-radius:70px;"  width="200px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-VcvjaPUkCplWjeLLWNzRGTkbbyhCNu16kCVVqfOqf8ThQ-i5lQ"></a></p>
+        <h1>나의 취향을 저격할 디즈니 애니메이션은?</h1>
+        <nav>
+            <a href="history.html">HISTORY</a>
+            <a href="movie.html">MOVIES</a>
+            <a href="new.html">NEW</a>
+            <a href="event.html">EVENT</a>
+        </nav>
+    </header>
+    <article>
+        <section> 
+            <legend>동물 주인공을 좋아하시나요?</legend>
+                <input type="radio" name="a" value="A"/>yes
+                <input type="radio" name="a" value="B"/>no
+            <legend>바다를 좋아하시나요?</legend>
+                <input type="radio" name="b" value="A"/>yes 
+                <input type="radio" name="b" value="B"/>no
+            <legend>1950년 이전의 고전영화를 좋아하시나요?</legend>
+                <input type="radio" name="c" value="A"/>yes
+                <input type="radio" name="c" value="B"/>no
+            <legend>고양이보다 강아지를 좋아하시나요?</legend>
+                <input type="radio" name="d" value="A"/>yes
+                <input type="radio" name="d" value="B"/>no
+            <legend>2000년대 이전 영화를 좋아하시나요?</legend>
+                <input type="radio" name="e" value="A"/>yes
+                <input type="radio" name="e" value="B"/>no
+            <legend>장난감을 좋아하시나요?</legend>
+                <input type="radio" name="f" value="A"/>yes
+                <input type="radio" name="f" value="B"/>no
+            <legend>쓰리디 영화를 좋아하시나요?</legend>
+                <input type="radio" name="g" value="A"/>yes
+                <input type="radio" name="g" value="B"/>no
+            <legend>아라비아 스타일을 좋아하시나요?</legend>
+                <input type="radio" name="h" value="A"/>yes
+                <input type="radio" name="h" value="B"/>no
+            <legend>괴물을 좋아하시나요?</legend>
+                <input type="radio" name="i" value="A"/>yes
+                <input type="radio" name="i" value="B"/>no
+            <legend>가장 좋아하는 계절이 겨울인가요?</legend>
+                <input type="radio" name="j" value="A"/>yes
+                <input type="radio" name="j" value="B"/>no
+            <legend>가끔 머리속이 궁금하실 때가 있나요?</legend>
+                <input type="radio" name="k" value="A"/>yes
+                <input type="radio" name="k" value="B"/>no
+            <legend>사후세계가 궁금하신가요?</legend>
+                <input type="radio" name="l" value="A"/>yes
+                <input type="radio" name="l" value="B"/>no
+            <legend>인터넷을 좋아하시나요?</legend>
+                <input type="radio" name="m" value="A"/>yes
+                <input type="radio" name="m" value="B"/>no
+            <legend>곱슬머리보다 생머리를 좋아하시나요?</legend>
+                <input type="radio" name="n" value="A"/>yes
+                <input type="radio" name="n" value="B"/>no
+            <br><br><br>
+            <button  type = "button" onclick = "movie();" style="font-family: 'Poor Story', cursive; background-color: #f8585b; border: none; ; border-radius:10px; color:#fff; padding:15px; text-align: center; text-decoration: none; display: inline-block; font-size: 25px; margin: 4px; cursor: pointer;"> 
+            결과 보기 </button>
+        </section>  
+    </article>
+    <aside>  
+              <div id="out">
+              </div>
+    </aside>
+    <footer></footer>
+</body>
+</html>

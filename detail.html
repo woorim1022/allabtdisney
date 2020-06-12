@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>나만의 디즈니 애니메이션</title>
+    <meta charset="UTF-8">
+    <script type = "text/javascript">
+    function myEventHandler() {
+           var num1 = prompt("동물을 좋아하시나요?(y/n)\n", "");
+           if(num1=="y"){
+               var num2 = prompt("산보다 바다를 좋아하시나요?(y/n)\n", "");
+                if(num2=="y"){
+                    var num8 = prompt("생머리보다 곱슬머리를 좋아하시나요?(y/n)\n", "");
+                    if(num8=="y"){
+                        document.getElementById("out").innerHTML = "<h1>모아나<h1> <br> <img src='https://t1.daumcdn.net/cfile/tistory/99F56F3D5A4808991D'>"; 
+                    }
+                    else{
+                        document.getElementById("out").innerHTML = "<h1>니모를 찾아서<h1> <br> <img src='http://yoons-magazine.com/wp-content/uploads/2016/05/-e1463538473187.jpg'>";
+                    }
+                }
+                else {
+                    var num3 = prompt("고양이보다 강아지를 좋아하시나요?(y/n)\n", "");
+                    if(num3=="y"){
+                        document.getElementById("out").innerHTML = "<h1>101마리 달마시안<h1> <br><img src='https://post-phinf.pstatic.net/MjAxNzA0MDZfMjE4/MDAxNDkxNDU4OTE1ODQy.PXVpFJMzDrlMhQ0Pe225VS999RzHSgV9uKzEzM6__aEg.A1zksdZHZr-uzb8vICaW03gYH11NfsybKoY3x1G2oSIg.JPEG/01.jpg?type=w1200'>";
+                    }
+                    else {
+                        document.getElementById("out").innerHTML = "<h1>라이온킹 <h1><br><img src='http://image.kmib.co.kr/online_image/2016/0929/201609290909_61180010962027_1.jpg'>";
+                    }
+                }
+           }
+           else {
+               var num4 = prompt("3d 애니메이션보다 2d 애니메이션을 좋아하시나요?(y/n)\n", "");
+               if(num4=="y"){
+                    document.getElementById("out").innerHTML = "<h1>이상한 나라의 앨리스<h1> <br><img src='https://t1.daumcdn.net/cfile/11108B1049B0ECAA90'>";
+                }
+                else {
+                    var num5 = prompt("괴물이 나오는 영화를 좋아하시나요?(y/n)\n", "");
+                    if(num5=="y"){
+                        document.getElementById("out").innerHTML = "<h1>몬스터 주식회사<h1><br><img src='https://image.aladin.co.kr/product/2400/83/cover500/936234078x_1.jpg'>";
+                    }
+                    else{
+                        var num6 = prompt("가장 좋아하는 계절이 겨울인가요?(y/n)\n", "");
+                        if(num6=="y"){
+                            document.getElementById("out").innerHTML = "<h1>겨울왕국<h1><br><img src='https://upload.wikimedia.org/wikipedia/ko/thumb/3/38/%EA%B2%A8%EC%9A%B8%EC%99%95%EA%B5%AD.jpg/250px-%EA%B2%A8%EC%9A%B8%EC%99%95%EA%B5%AD.jpg'>";
+                        }
+                        else {
+                            var num7 = prompt("가끔 머리속이 궁금할 때가 있나요?(y/n)\n", "");
+                            if(num7=="y"){
+                                document.getElementById("out").innerHTML = "<h1>인사이드 아웃<h1><br><img src='https://femiwiki-uploaded-files-thumb.s3.amazonaws.com/7/78/IMG_3833.JPG/300px-IMG_3833.JPG'>";
+                            }
+                            else{
+                                document.getElementById("out").innerHTML = "<h1>코코<h1><br><img src='https://juilkimcom.files.wordpress.com/2018/01/coco_vive_tu_momento_poster.jpg?w=770'>";
+                            }
+                        }
+                    }   
+               
+                }
+           }
+    }
+    </script>
+
+
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Chewy|Indie+Flower|Montserrat|Poor+Story|Roboto+Condensed&display=swap');       
+        html, body {background-color: rgba( 255, 255, 255, 0.4 );  height:150%; margin:10px; padding:20px}
+        header { text-align:center; background-color:white; text-align:left; padding:5px; border-radius:70px;}
+        header h1 {text-align:center; font-size:40pt; font-family: 'Poor Story', cursive;}
+        nav{ background-color:pink; padding:30px; height:60px; text-align:center; border-radius:70px;}
+        nav a{text-decoration:none;  color: white; font-family: 'Chewy', cursive; width:25%; float:left; font-size:30pt}
+        html {background:url(http://getwallpapers.com/wallpaper/full/9/4/3/382800.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+        article {padding:10px; margin:10px; font-size:20pt}
+        section {float:center; text-align:center; padding:80px; font-family: 'Poor Story', cursive; font-size:30pt}
+        aside {text-align:center}
+        div img {width:400px; height:550px;}
+        
+    </style>
+</head>
+</html>
+<body>
+    <header><p id="title"><a href="index.html"><img style="border-radius:70px;"  width="200px" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-VcvjaPUkCplWjeLLWNzRGTkbbyhCNu16kCVVqfOqf8ThQ-i5lQ"></a></p>
+        <h1>나의 취향을 저격할 디즈니 애니메이션은?</h1>
+        <nav>
+            <a href="history.html">HISTORY</a>
+            <a href="movie.html">MOVIES</a>
+            <a href="new.html">NEW</a>
+            <a href="event.html">EVENT</a>
+        </nav>
+    </header>
+    <article>
+        <section> 
+            <h1>나의 취향을 저격할 디즈니 애니메이션은, </h1>
+                <div id="out">O O O
+                </div>
+            <h1>입니다.</h1>
+            <br><br><br>
+        </section>  
+    </article>
+    <aside>   
+        <button  type = "button" onclick = "myEventHandler();" style="font-family: 'Poor Story', cursive; background-color: #f8585b; border: none; ; border-radius:10px; color:#fff; padding:15px; text-align: center; text-decoration: none; display: inline-block; font-size: 25px; margin: 4px; cursor: pointer;"> 
+            시작하기 </button>
+    </aside>
+    <footer></footer>
+</body>
+</html>
